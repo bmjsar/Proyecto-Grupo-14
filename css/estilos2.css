@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../img/auto03.jpg);
+    background-size: cover;
+    background-position: center center; /*tanto arriba como abajo*/
+    height:  calc(100vh - 130px);
+    
+    
+    /*background-size: cover;
+    background-attachment: fixed;*/
+}
+.contenedor .form .form-header .form-titulo
+    {
+    font-weight: normal;
+    font-family: sans-serif;
+    color:orangered;
+    text-align: center;
+    padding: 14px 0;
+    }
+
+.contenedor .form .form-header .form-titulo
+    {
+    color: #fff;
+
+    }
+.contenedor .form
+   {
+    background: rgba(0, 0, 0, 60%);
+    width: 90%;
+    max-width: 650px;
+    margin: auto;     /* para centrarlo */
+    padding: 5px 35px;
+    margin-top: 30px;
+    border-radius: 4px;
+   }
+
+
+  .contenedor .form .form-label
+    {
+        display: block;      /* para dejar uno abajo del otro*/
+        color: rgb(243, 150, 10);
+        font-size: 18px;
+        font-family:'Times New Roman', Times, serif;
+        position: relative;
+    }
+    .contenedor .form .form-input, .form-textarea 
+        {
+        background: rgba(0, 0, 0, 80%);
+        border: none;
+        border-bottom: 2px solid orangered;
+        width: 96%;    /* el ancho de los input */
+        padding: 12px;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        font-size: 14px ;
+        color: white;
+
+        }
+        .contenedor .form .form-textarea 
+        {
+            resize: vertical;
+            max-height: 150px;
+            min-height: 50px;
+
+        }  
+        .btn-submit{
+            width: 100%;
+            font-family: 'Times New Roman', Times, serif;
+            outline: none;
+            border: none;
+            font-size: 16px;
+            padding: 10px;
+            cursor: pointer;
+            background-color: orangered;
+                 }  
+        .btn-submit:hover {
+            background-color: rgb(252, 143, 42);
+        }
