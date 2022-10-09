@@ -4,22 +4,21 @@
 }
 
 body{
-    background: url(../img/auto03.jpg);
+    background-image: url(../img/auto02.jpg);
     background-size: cover;
     background-position: center center; /*tanto arriba como abajo*/
-    height:  calc(100vh - 130px);
-    
-    
-    /*background-size: cover;
-    background-attachment: fixed;*/
+    height:  100vh;
+       
+    background-size: cover;
+    /* background-attachment: fixed;*/
 }
 .contenedor .form .form-header .form-titulo
     {
     font-weight: normal;
     font-family: sans-serif;
-    color:orangered;
+    color:rgb(255, 0, 0);
     text-align: center;
-    padding: 14px 0;
+    padding: 10px 0;
     }
 
 .contenedor .form .form-header .form-titulo
@@ -29,12 +28,12 @@ body{
     }
 .contenedor .form
    {
-    background: rgba(0, 0, 0, 60%);
+    background: rgba(0, 0, 0, 50%);
     width: 90%;
     max-width: 650px;
     margin: auto;     /* para centrarlo */
     padding: 5px 35px;
-    margin-top: 30px;
+    margin-top: 5px;
     border-radius: 4px;
    }
 
@@ -51,7 +50,7 @@ body{
         {
         background: rgba(0, 0, 0, 80%);
         border: none;
-        border-bottom: 2px solid orangered;
+        border-bottom: 2px solid rgb(255, 0, 0);
         width: 96%;    /* el ancho de los input */
         padding: 12px;
         margin-bottom: 20px;
@@ -77,6 +76,8 @@ body{
             cursor: pointer;
             background-color: orangered;
                  }  
-        .btn-submit:hover {
+        .btn-submit:hover .form-label {
             background-color: rgb(252, 143, 42);
+            display: none;
         }
+        
