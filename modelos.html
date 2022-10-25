@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://kit.fontawesome.com/92ad08e278.js" crossorigin="anonymous"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/estiloidentidad.css"> 
+    <link rel="stylesheet" href="css/modelosestilo.css"> 
 </head>  
 <body>
    <header> <nav>
@@ -31,45 +31,72 @@
             <li> <a href="Formulario.html"> Contacto</a> </li>
          </ul>
         </nav>
-    </header>
+    </header>  
     <main>
-            <h2 class="animate__animated animate__slideInRight">Lion's</h2>
-            
-        <div class="contenedor">
-            <article iden>
-                <br>
-                <p class="par">Una empresa dirigida a gente exigente. Hacemos "coachbuilding" (encargos a medida de cada cliente) para autos de <strong>muy alta gama</strong>, la mayoría construidos, según las exigencias, en fábricas reconocidas por su excelencia. En la sección <a href="marcas.html"> Marcas</a> se pueden repasar algunas de las automotrices con las cuales ya hemos trabajado cumpiendo de sobra con las espectativas de nuestros clientes. <br> Su calidad es exclusiva para gente distinguida que quiere manifestar su identidad a través de estos autos. Trabajamos en equipo con el cliente para conocer sus exigencias y encontrar el vehículo preciso para cada gusto y necesidad.
-                    Por esta razón no tenemos sucursales. <br>  Estamos ubicados en un espacio céntrico que permite probar las unidades cuando están preparadas. 
-                    </p>
-                
-            </article>
-            
-            <article iden>
-                <div class="container">
-                    <img src="img/Ferrari-P88.jpeg">
-                    <div class="overlay">
-                        <div class="text">Ferrari-P88</div>
-                      </div>
-                    </div>
-                <br>
-                <div class="container">
-                <img src="img/Bugatti Voiture Noire.jpg" alt="La Voiture Noir">
-                    <div class="overlay">
-                        <div class="text">La Voiture Noire</div>
-                  </div>
-                </div>
-            </aarticle>
+        <h2 class="animate__animated animate__slideInRight">Modelos</h2>
+
+        <div class="precio">
+            <h3>Valor en pesos</h3>
+            <br>
+            Actualizado al día: <span id="act"></span><br>
+            La cotización oficial de euro es:<span id="cot"></span><br>
+    
+            Si quiere conocer el precio en pesos apriete el botón y siga las instrucciones <br>
+            <br>
+            <button class="button"  onclick="myFunction()">Apriete</button><br>
+            <br>
+            <p id=  "multi"  ></p>
+            <br>
         </div>
+      
+
+        <div class="contenedor">
+
+                    <div class="item">
+                        <img src="img/lamborghini-sian.jpg">
+                        <p>Lamborghini Sian</p><p>€ 3.300.090.-</p>
+                    
+                    </div>
+           
+                    <div class="item">
+                        <img src="img/bugatti-centodieci-1-1596357866.jpg">
+                        <p>Bugatti Centodieci</p><p>€ 8.000.000.-</p>
+                         
+                    </div>
+
+                    <div class="item">
+                        <img src="img/pininfarina-ferrari-sergio-concept.jpg">
+                        <p>Pininfarina Ferrari</p> <p>€ 2.600.000.-</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/maybach-exelero-concept-7-1643133849.jpg">
+                        <p>Mercedes Maybach Exelero</p><p>€ 7.200.000.-</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/lamborghini-veneno-roadster6-1579016169.jpg">
+                        <p>Lamborghini Veneno</p><p>€ 3.300.000.-</p>
+                    </div>
+
+                    <div class="item">
+                        <img src="img/Rolls-Royce Sweptail.jpg">
+                        <p>Rolls-Royce Sweptail</p><p>€ 23.000.000.-</p>
+                    </div>
+            -->        
+        </div>
+    <script src="JS/cotizacion.js"></script>
+    <script src="JS/precio.js"></script>
     </main>
-</body>
+    
     <footer >
         <div>
-            <br>
+        <br>
             <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13140.32505933573!2d-58.4171658754349!3d-34.57681025112035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57af22a2905%3A0x6516774808f85660!2sPlaza%20Alemania!5e0!3m2!1ses-419!2sar!4v1662552196684!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="ubi">
             <p>Ubicación:</p>
-            <p>Raúl <br> Scalabrini Ortiz 2602 </p>  
+            <p>Raúl <br> Scalabrini Ortiz 2602</p>  
         </div>
         <span>
             <a class="redsoc" href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook" aria-hidden="true"></i> </a>
@@ -78,4 +105,5 @@
             <p> Derechos Reservados </p>
         </span>
     </footer>
+</body>
 </html>

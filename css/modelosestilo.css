@@ -34,7 +34,7 @@ nav ul li{
 nav ul li a{
  color: white;
  font-size: 20px;
- padding: 7px 13px;
+ padding: 7px 13 px;
  border-radius: 3px;
  text-transform: uppercase;
 }
@@ -54,17 +54,87 @@ li a:hover{
 #check{
     display: none;
 }
-  
-h1{
-    display: flex;
-    width: vw;
-    margin:auto;
-    padding-left: 3rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: blue;
+main{
+    max-width: 1200px;
+    width: 100%;
+    background: linear-gradient(90deg,rgb(225, 235, 225), rgb(139, 147, 151));
+}
+h2{
     font-size: 3.5rem;
-} 
+    color: blue;
+    padding-left: 10%;
+    padding-top: 2%;
+ } 
+h3{
+    font-size: 2rem;
+    color: blue;
+    padding-left: 20%;
+    padding-top: 2%;
+}
+.precio{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background: linear-gradient(90deg,rgb(153, 155, 153), rgb(163, 199, 218));
+    color: rgb(29, 28, 28);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.button {
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #5848eb;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
 
+.button:hover {background-color: #69b9ee}
+
+.button:active {
+  background-color: #69b9ee;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: row;
+    grid-column-gap:  0.5rem;
+    grid-row-gap: 1rem;
+    max-width: 1280px;
+    height: auto;
+    width: 85%;
+    margin-left: 1rem;
+    margin-right: 0;
+    padding-top: 1rem;
+}
+.item {
+    display: grid;
+    width: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    margin-right: 1rem;
+    background: linear-gradient(90deg,rgb(153, 155, 153), rgb(163, 199, 218));
+    color: rgb(77, 74, 74);
+    padding: 10px 20px 20px 20px;
+    font-weight: bold;
+}
+p{
+    padding-top: 00.5rem;
+}
+@media screen and (max-width: 640px) {
+    .contenedor {
+        display: grid;
+        grid-template-columns: 1fr
+    }
+}
 footer{
     background-color: black;
     color: white;
